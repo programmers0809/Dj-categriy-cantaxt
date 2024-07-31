@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Home page</title>
+</head>
+<body>
+    <h1 style="color: green;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, provident numquam enim aperiam adipisci nihil corporis hic aspernatur, cupiditate nisi non magni voluptas quas porro quasi, fuga quam nulla nesciunt.</h1>
+    <a href="./index.html">Index page</a> 
+    {% for my_users_list in my_users_list %}
+    {{ my_users_list.name }}
+    {{ my_users_list.autor }}
+    {{ my_users_list.number }}
+{% endfor %}
+</body>
+</html>
